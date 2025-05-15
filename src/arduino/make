@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#name=test
+name=$1
+
+arduino-cli compile -b arduino:avr:uno $name

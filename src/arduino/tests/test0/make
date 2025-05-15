@@ -1,0 +1,20 @@
+#!/bin/bash
+
+name=thing
+
+#zip -r MCP9808_lib.zip MCP9808_lib
+#arduino-cli lib install --zip-path myuart.zip
+arduino-cli compile -b arduino:avr:uno $name
+#arduino-cli compile -b arduino:avr:uno $name2
+
+
+
+#usudo arduino-cli upload $name -p /dev/ttyACM0 -b arduino:avr:uno
+
+##usudo arduino-cli upload $name2 -p /dev/ttyUSB1 -b arduino:avr:uno
+
+#usudo arduino-cli monitor -p /dev/ttyACM0
+
+
+
+avr-objdump -d -m avr $name/build/arduino.avr.uno/$name.ino.elf > diss.asm

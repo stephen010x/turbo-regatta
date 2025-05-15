@@ -1,0 +1,5 @@
+#!/bin/bash
+
+name=$1
+
+avr-objdump -d -m avr $name/build/arduino.avr.uno/$name.ino.elf
