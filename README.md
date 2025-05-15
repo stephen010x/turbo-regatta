@@ -1,7 +1,7 @@
 # Turbo Regatta - Pier Pressure
 
 <image src="media/ui-circuit-diagram.png" width="256"></image>
-<image src="media/race.jpg" width="256"></image>
+<image src="media/race.jpg" width="256"></image> \
 <image src="media/motor.jpg" width="256"></image>
 <image src="media/pcb.webp" width="256"></image>
 
@@ -18,11 +18,11 @@ As the Computer Engineer of our group named *Pier Pressure*, I was responsible f
 The Voltage Mapper Circuit was used to remap the voltage range 15-18V to 0-5V in order to accurately and safely measure the battery voltage from an Arduino microcontroller.
 
 <image src="media/schematic.webp" width="256"></image>
-<image src="media/pcb.webp" width="256"></image>
+<image src="media/pcb.webp" width="256"></image> \
 <image src="media/model1.webp" width="256"></image>
 <image src="media/model2.webp" width="256"></image>
 
-[More about the Voltage Mapper Circuit](voltage-mapper/README.md)
+[More about the Voltage Mapper Circuit](voltage-mapper)
 
 ## User System Interface
 

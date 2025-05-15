@@ -1,8 +1,6 @@
 # Media
 
-<video width="320" height="240" controls>
-    <source src="media/pier-pressure-intro.mp4" type="video/mp4">
-</video>
+https://github.com/stephen010x/turbo-regatta/raw/refs/heads/main/media/pier-pressure-intro.mp4
 
 ![group-photo.jpg](media/group-photo.jpg)
 ![logo.png](media/logo.png)

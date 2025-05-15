@@ -1,4 +1,4 @@
-[<<< Back to main README](../README.md)
+[<<< Back to main README](../)
 
 # Voltage-Mapper Circuit
 
@@ -9,6 +9,7 @@ One challenge to overcome was being able to accurately measure battery voltage, 
 The circuit was designed using [KiCad's](https://www.kicad.org/) Circuit Schematic software.
 
 The formula derived for the resistors of a subtracting Op-Amp to map one voltage range to another:
+
 ```math
 \begin{align*}
 R_1&=\text{Reference Resistance} \\
