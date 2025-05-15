@@ -41,6 +41,8 @@ There were two electric motors propelling the boat. Each motor was controlled wi
 
 As per the project requirements, no libraries were to be used when developing the code for the MSP430. Instead, features such as analog sampling, and IO pin reads and writes, all had to be interfaced using MSP430 IO registers.
 
+<image src="media/msp430.png" width="350"></image>
+
 [MSP430G2xx User Guide](https://www.ti.com/lit/ug/slau144k/slau144k.pdf?ts=1737596399224)
 
 [Link to MSP430 Code](src/msp430)
